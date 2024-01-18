@@ -1,6 +1,6 @@
 import React from "react";
 
-function App() {
+function Lesson01() {
   // return React.createElement(
   //   "h1",
   //   { id: "5" },
@@ -19,10 +19,10 @@ function App() {
       </div>
       <div className="large" id="largeDiv">
         {myCustomLabel}
-        <input type="number" id="inputId" value={3} />
+        <input type="number" id="inputId" defaultValue={3} />
       </div>
     </>
   );
 }
 
-export default App;
+export default Lesson01;
