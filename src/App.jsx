@@ -5,6 +5,7 @@ import { FunctionProps } from "../functionProps/FunctionProps";
 import { TodoListItem } from "../components-intro/TodoListItem";
 import { TodoListItemClass } from "../components-intro/TodoListItemClass";
 // import { TodoList } from "../lesson-02/TodoList";
+import "./styles.css";
 
 function App() {
   // return <TodoList />;
