@@ -1,10 +1,9 @@
 import React from "react";
 import "./styles.css";
-import { Counter } from "../state-intro/Counter";
-import { StateObject } from "../state-intro/StateObject";
+import { CounterClass } from "../state-intro/CounterClass";
 
 function App() {
-  return <StateObject />;
+  return <CounterClass />;
 }
 
 export default App;
