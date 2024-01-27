@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.css";
-import { CounterClass } from "../state-intro/CounterClass";
+import { InputEventListener } from "../input-event-listeners/InputEventListener";
 
 function App() {
-  return <CounterClass />;
+  return <InputEventListener />;
 }
 
 export default App;
