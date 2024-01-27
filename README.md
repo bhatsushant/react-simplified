@@ -1,6 +1,10 @@
 # React Simplified
 
-## Learning React
+## Learning the basics of React using small examples and projects
 
-- Lesson 01 - JSX Basics
-- Lesson 02 - Intro to Class and Functional Components
+### To run this repo, use the following commands:
+
+```
+npm i
+npm run dev
+```
