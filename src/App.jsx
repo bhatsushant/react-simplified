@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles.css";
-import { ArrayFunctions } from "../array-state-project/ArrayFunctions";
+// import "./styles.css";
+import { AgeCounterClass } from "../Counter/AgeCounterClass";
 
 function App() {
-  return <ArrayFunctions />;
+  return <AgeCounterClass />;
 }
 
 export default App;
