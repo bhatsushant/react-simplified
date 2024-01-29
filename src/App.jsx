@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.css";
-import { InputEventListener } from "../input-event-listeners/InputEventListener";
+import { ArrayFunctions } from "../array-state-project/ArrayFunctions";
 
 function App() {
-  return <InputEventListener />;
+  return <ArrayFunctions />;
 }
 
 export default App;
