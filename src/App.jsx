@@ -1,9 +1,9 @@
 import React from "react";
-import { SideEffect } from "../useeffect-intro/SideEffect";
+import Parent from "../useeffect-exercises/Parent";
 // import "./styles.css";
 
 function App() {
-  return <SideEffect />;
+  return <Parent />;
 }
 
 export default App;
