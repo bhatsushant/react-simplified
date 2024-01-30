@@ -1,9 +1,9 @@
 import React from "react";
+import { SideEffect } from "../useeffect-intro/SideEffect";
 // import "./styles.css";
-import { AgeCounterClass } from "../Counter/AgeCounterClass";
 
 function App() {
-  return <AgeCounterClass />;
+  return <SideEffect />;
 }
 
 export default App;
