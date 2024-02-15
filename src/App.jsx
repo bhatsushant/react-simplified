@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import Fetch from "../fetch/Fetch";
+import UserList from "../user-list/UserList";
 
 function App() {
-  return <Fetch />;
+  return <UserList />;
 }
 
 export default App;
