@@ -33,20 +33,20 @@ const Fetch = () => {
     return () => controller.abort();
   }, []);
 
-  let jsx;
-  if (loading) {
-    jsx = <h2>Loading...</h2>;
-  } else if (error != null) {
-    jsx = <h2>Error!</h2>;
-  } else {
-    jsx = users.map((user) => (
-      <div key={user.id}>
-        <h1>{user.name}</h1>
-      </div>
-    ));
-  }
-
-  return <>{jsx}</>;
+  return (
+    <>
+      <h1>User List</h1>
+      {loading ? (
+        <h2>Loading...</h2>
+      ) : (
+        <ul>
+          {users.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </>
+  );
 };
 
 export default Fetch;
