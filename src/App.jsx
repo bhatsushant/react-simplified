@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import UserList from "../user-list/UserList";
+import TodoList from "../todo-list/TodoList";
 
 function App() {
-  return <UserList />;
+  return <TodoList />;
 }
 
 export default App;
