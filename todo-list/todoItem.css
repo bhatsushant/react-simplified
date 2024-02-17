@@ -1,0 +1,4 @@
+[data-list-item-checkbox]:checked ~ [data-list-item-text] {
+  text-decoration: line-through;
+  color: #aaa;
+}
