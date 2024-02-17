@@ -27,6 +27,7 @@ const Fetch = () => {
         setError(e);
       })
       .finally(() => {
+        controller.abort();
         setLoading(false);
       });
 
