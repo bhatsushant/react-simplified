@@ -27,11 +27,13 @@ const Fetch = () => {
         setError(e);
       })
       .finally(() => {
-        controller.abort();
-        setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       });
 
-    return () => controller.abort();
+    return () => {
+      controller.abort();
+      setLoading(false);
+    };
   }, []);
 
   return (
