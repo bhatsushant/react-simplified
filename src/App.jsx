@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import CustomFetch from "../custom-hooks/CustomFetch";
+import CustomArray from "../custom-hooks/CustomArray";
 
 function App() {
-  return <CustomFetch />;
+  return <CustomArray />;
 }
 
 export default App;
