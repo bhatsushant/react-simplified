@@ -8,11 +8,11 @@ const URLS = {
 };
 
 const OPTIONS = {
-  method: "POST",
-  body: JSON.stringify({ name: "Kyle" }),
-  headers: {
-    "Content-type": "application/json",
-  },
+  // method: "POST",
+  // body: JSON.stringify({ name: "Kyle" }),
+  // headers: {
+  //   "Content-type": "application/json",
+  // },
 };
 
 function CustomFetch() {
