@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import UserList from "../user-list/UserList";
+import DarkMode from "../custom-hooks/DarkMode";
 
 function App() {
-  return <UserList />;
+  return <DarkMode />;
 }
 
 export default App;
