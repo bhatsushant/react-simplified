@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import InputRef from "../useRef/InputRef";
+import UserList from "../user-list/UserList";
 
 function App() {
-  return <InputRef />;
+  return <UserList />;
 }
 
 export default App;

@@ -28,10 +28,13 @@ const UserList = () => {
         setError(e);
       })
       .finally(() => {
-        setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       });
 
-    return () => controller.abort();
+    return () => {
+      setLoading(false);
+      controller.abort();
+    };
   }, []);
 
   return (
