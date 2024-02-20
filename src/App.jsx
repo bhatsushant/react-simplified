@@ -1,9 +1,9 @@
 import React from "react";
 // import "./styles.css";
-import CustomArray from "../custom-hooks/CustomArray";
+import LocalStorage from "../custom-hooks/LocalStorage";
 
 function App() {
-  return <CustomArray />;
+  return <LocalStorage />;
 }
 
 export default App;
