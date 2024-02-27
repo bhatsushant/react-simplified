@@ -1,8 +1,8 @@
 // import "./styles.css";
-import StateFormValidation from "../forms/StateFormValidation";
+import ForwardRefExample from "../forwardRef/forwardRefExample";
 
 function App() {
-  return <StateFormValidation />;
+  return <ForwardRefExample />;
 }
 
 export default App;
