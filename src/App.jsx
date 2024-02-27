@@ -1,8 +1,8 @@
 // import "./styles.css";
-import LocalStorage from "../custom-hooks/LocalStorage";
+import StateFormValidation from "../forms/RefFormValidation";
 
 function App() {
-  return <LocalStorage />;
+  return <StateFormValidation />;
 }
 
 export default App;
