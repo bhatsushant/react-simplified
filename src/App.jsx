@@ -1,8 +1,8 @@
 // import "./styles.css";
-import StateFormValidation from "../forms/RefFormValidation";
+import RefFormValidation from "../forms/RefFormValidation";
 
 function App() {
-  return <StateFormValidation />;
+  return <RefFormValidation />;
 }
 
 export default App;
