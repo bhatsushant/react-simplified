@@ -1,8 +1,8 @@
 // import "./styles.css";
-import Reducer from "../useReducer/Reducer";
+import UserData from "../useReducer/fetch/UserData";
 
 function App() {
-  return <Reducer initialCount={0} />;
+  return <UserData />;
 }
 
 export default App;
