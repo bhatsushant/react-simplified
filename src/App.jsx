@@ -1,8 +1,8 @@
 // import "./styles.css";
-import ReactHookForm from "../forms/ReactHookForm";
+import Reducer from "../useReducer/Reducer";
 
 function App() {
-  return <ReactHookForm />;
+  return <Reducer initialCount={0} />;
 }
 
 export default App;
