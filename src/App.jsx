@@ -1,8 +1,8 @@
 // import "./styles.css";
-import ForwardRefExample from "../forwardRef/forwardRefExample";
+import ReactHookForm from "../forms/ReactHookForm";
 
 function App() {
-  return <ForwardRefExample />;
+  return <ReactHookForm />;
 }
 
 export default App;
